@@ -1,0 +1,7 @@
+{fcda6c12-4928-4698-a83d-65e2979ee740} event:/Shot_Reflect
+{e198b76c-e638-43da-b3db-563b8420b19a} event:/Enemy_Fire
+{b6820175-bcd7-475a-9800-335eb3ec98d9} bus:/
+{8b7136b7-dc97-4c97-8754-fe21b4b1b4de} bus:/Reverb
+{02167aba-8ae7-41c5-9dd3-05180475a546} bank:/Master Bank
+{20771839-1a37-42d4-869f-d63d777d09da} bank:/Player Bank
+{56a51d31-7ee0-470b-8a64-b79726b40935} bank:/Enemy Bank
