@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4503859822050365266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/Week 174 FMOD/Build/Desktop/Master Bank.strings.bank
+  SubDir: 
+  lastModified: 637405554719591293
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 870
+  Exists: 1
+--- !u!114 &-2212177247458361561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player Bank.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/Week 174 FMOD/Build/Desktop/Player Bank.bank
+  SubDir: 
+  lastModified: 637405554722470715
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-1516401554558619456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Shot_Reflect
+  m_EditorClassIdentifier: 
+  Path: event:/Shot_Reflect
+  guid: 126cdafc28499846a83d65e2979ee740
+  Banks:
+  - {fileID: -1230374589201737985}
+  - {fileID: -2212177247458361561}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &-1230374589201737985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/Week 174 FMOD/Build/Desktop/Master Bank.bank
+  SubDir: 
+  lastModified: 637405554719501277
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-846238380315452566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Enemy Bank.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/Week 174 FMOD/Build/Desktop/Enemy Bank.bank
+  SubDir: 
+  lastModified: 637405482172736115
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -4503859822050365266}
+  - {fileID: 8264085154390656004}
+  - {fileID: -1230374589201737985}
+  - {fileID: -2212177247458361561}
+  EditorEvents:
+  - {fileID: 987567483471280084}
+  - {fileID: -1516401554558619456}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -1230374589201737985}
+  StringsBanks:
+  - {fileID: -4503859822050365266}
+  stringsBankWriteTime: 637405554719591293
+  cacheVersion: 3
+--- !u!114 &987567483471280084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy_Fire
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy_Fire
+  guid: 6cb798e138e6da43b3db563b8420b19a
+  Banks:
+  - {fileID: 8264085154390656004}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &3149350496859913796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/Week 174 FMOD/Build/Desktop/Master Bank.bank
+  SubDir: 
+  lastModified: 637405482171993862
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &7773257476861325880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player Bank.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/Week 174 FMOD/Build/Desktop/Player Bank.bank
+  SubDir: 
+  lastModified: 637405482172426922
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8264085154390656004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Enemy Bank.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/Week 174 FMOD/Build/Desktop/Enemy Bank.bank
+  SubDir: 
+  lastModified: 637405554722160321
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
