@@ -6,6 +6,8 @@ TagManager:
   tags:
   - GreenShield
   - BlueShield
+  - Shield
+  - PlayerBody
   layers:
   - Default
   - TransparentFX

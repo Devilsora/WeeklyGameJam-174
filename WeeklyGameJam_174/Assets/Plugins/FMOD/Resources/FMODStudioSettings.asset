@@ -80,6 +80,7 @@ MonoBehaviour:
   - Master Bank
   Banks:
   - Enemy Bank
+  - Music Bank
   - Player Bank
   BanksToLoad: []
   LiveUpdatePort: 9264

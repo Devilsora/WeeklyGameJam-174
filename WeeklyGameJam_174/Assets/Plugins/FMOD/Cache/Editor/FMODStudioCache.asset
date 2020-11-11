@@ -1,5 +1,46 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9134561661616576165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music Bank.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/Week 174 FMOD/Build/Desktop/Music Bank.bank
+  SubDir: 
+  lastModified: 637406486683111782
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-6464810371910900700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gameplay_Music
+  m_EditorClassIdentifier: 
+  Path: event:/Gameplay_Music
+  guid: ca16a15dca61e046baa47666fb89864e
+  Banks:
+  - {fileID: -9134561661616576165}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 30000
 --- !u!114 &-4503859822050365266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14,11 +55,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../FMOD/Week 174 FMOD/Build/Desktop/Master Bank.strings.bank
   SubDir: 
-  lastModified: 637405554719591293
+  lastModified: 637406486683061907
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 870
+    Value: 968
   Exists: 1
 --- !u!114 &-2212177247458361561
 MonoBehaviour:
@@ -37,7 +78,7 @@ MonoBehaviour:
   lastModified: 637405554722470715
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-1516401554558619456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53,8 +94,8 @@ MonoBehaviour:
   Path: event:/Shot_Reflect
   guid: 126cdafc28499846a83d65e2979ee740
   Banks:
-  - {fileID: -1230374589201737985}
-  - {fileID: -2212177247458361561}
+  - {fileID: 6541816462621387873}
+  - {fileID: 6398690433359504086}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -79,7 +120,7 @@ MonoBehaviour:
   lastModified: 637405554719501277
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-846238380315452566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,18 +153,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -4503859822050365266}
-  - {fileID: 8264085154390656004}
-  - {fileID: -1230374589201737985}
-  - {fileID: -2212177247458361561}
+  - {fileID: 6458309738453714248}
+  - {fileID: 6541816462621387873}
+  - {fileID: -9134561661616576165}
+  - {fileID: 6398690433359504086}
   EditorEvents:
   - {fileID: 987567483471280084}
   - {fileID: -1516401554558619456}
+  - {fileID: -6464810371910900700}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -1230374589201737985}
+  - {fileID: 6541816462621387873}
   StringsBanks:
   - {fileID: -4503859822050365266}
-  stringsBankWriteTime: 637405554719591293
+  stringsBankWriteTime: 637406486683061907
   cacheVersion: 3
 --- !u!114 &987567483471280084
 MonoBehaviour:
@@ -140,7 +183,7 @@ MonoBehaviour:
   Path: event:/Enemy_Fire
   guid: 6cb798e138e6da43b3db563b8420b19a
   Banks:
-  - {fileID: 8264085154390656004}
+  - {fileID: 6458309738453714248}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -166,6 +209,60 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &6398690433359504086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player Bank.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/Week 174 FMOD/Build/Desktop/Player Bank.bank
+  SubDir: 
+  lastModified: 637405211188503281
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &6458309738453714248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Enemy Bank.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/Week 174 FMOD/Build/Desktop/Enemy Bank.bank
+  SubDir: 
+  lastModified: 637405211188403536
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &6541816462621387873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master Bank.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/Week 174 FMOD/Build/Desktop/Master Bank.bank
+  SubDir: 
+  lastModified: 637405211188423484
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &7773257476861325880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201,4 +298,4 @@ MonoBehaviour:
   lastModified: 637405554722160321
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0

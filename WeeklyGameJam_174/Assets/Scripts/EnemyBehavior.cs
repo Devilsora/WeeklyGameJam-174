@@ -12,10 +12,14 @@ public class EnemyBehavior : MonoBehaviour
     public GameObject bulletPrefab;
 
     private PlayerController playerRef;
+    private SpriteRenderer renderer;
+
+    private Color colorVar = Color.green;
     // Start is called before the first frame update
     void Start()
     {
         playerRef = GameObject.FindObjectOfType<PlayerController>();
+        
     }
 
     // Update is called once per frame
@@ -38,6 +42,12 @@ public class EnemyBehavior : MonoBehaviour
             Destroy(gameObject);
     }
 
+    public void Awake()
+    {
+        renderer = GetComponent<SpriteRenderer>();
+        renderer.color = colorVar;
+    }
+
     public void ShootBullet()
     {
         //shoots bullet in direction of player
@@ -48,7 +58,11 @@ public class EnemyBehavior : MonoBehaviour
         GameObject newBullet = Instantiate(bulletPrefab, bulletLaunchPoint.transform.position,
             bulletLaunchPoint.transform.rotation);
 
+        newBullet.GetComponent<Bullet>().SetBulletColor(colorVar);
+
         newBullet.GetComponent<Rigidbody2D>().AddForce(bulletDir, ForceMode2D.Impulse);
 
     }
+
+    
 }
